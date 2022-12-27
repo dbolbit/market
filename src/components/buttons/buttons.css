@@ -1,0 +1,94 @@
+.custom_btn {
+    border: 2px solid white;
+    border-radius: 26px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px 25px;
+
+}
+
+.item_card_btn,
+.item_card_btn_in {
+    width: 112px;
+    height: 40px;
+    border-radius: 60px;
+}
+
+.item_card_btn {
+    cursor: pointer;
+    font-size: 16px;
+    background-color: white;
+    font-weight: 600;
+    color: #FF0000;
+    border: 1px solid #FF0000;
+    padding: 10px 15px;
+}
+
+.item_card_btn_in {
+    background-color: #FFF8EB;
+    border: 1px solid #FFE7B9;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.item_card_btn:hover {
+    color: white;
+    background-color: #FF0000;
+}
+
+.default-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 12px;
+    border: 1px solid #FFE7B9;
+    /*background-color: #FFF8EB;*/
+
+    background-color: var(--default-btn-color);
+    color: var(--text-color);
+    font-weight: 500;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.default-btn:hover {
+    color: white;
+    background-color: var(--main-color);
+    border-color: #FFE7B9;
+}
+
+.red_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: auto;
+    border: none;
+    outline: none;
+    background-color: var(--main-btn-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.btn_favorite {
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    color: #DADADA;
+    border: 1px solid #DADADA;
+}
+
+.btn_favorite:hover {
+    border-color: #FFA900;
+    color: #FFA900;
+}

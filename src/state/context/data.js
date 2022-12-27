@@ -1,0 +1,22 @@
+export const ruCategory = {
+	"smartphones": "Смартфоны",
+	"laptops": "Ноутбуки",
+	"fragrances": "Парфюмерия",
+	"skincare": "Уход за лицом",
+	"groceries": "Продукты",
+	"home-decoration": "Декор для дома",
+	"furniture": "Мебель",
+	"tops": "Верхняя одежда",
+	"mens-shirts": "Футболки",
+	"womens-dresses": "Платья",
+	"womens-shoes": "Женская обувь",
+	"mens-shoes": "Мужская обувь",
+	"mens-watches": "Мужские часы",
+	"womens-watches": "Женские часы",
+	"womens-bags": "Женские сумки",
+	"womens-jewellery": "Увелирные украшения",
+	"sunglasses": "Очки",
+	"automotive": "Автотовары",
+	"motorcycle": "Мототовары",
+	"lighting": "Освещение"
+}

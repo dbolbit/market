@@ -1,0 +1,135 @@
+.item-card {
+    width: 305px;
+    height: 405px;
+    border: 1px solid #DADADA;
+    border-radius: 20px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.spin-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+}
+
+.item-container {
+    /*border: 5px solid red;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+}
+
+main section {
+    display: flex;
+
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.item-img {
+    /*border: 2px solid red;*/
+    position: relative;
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    overflow: hidden;
+    padding: 15px;
+}
+
+
+.item-img img {
+    z-index: 99;
+    /*width: 75%;*/
+    border-radius: 16px;
+    /*max-height: 80%;*/
+    height: 100%;
+    width: auto;
+}
+
+.item-img :hover ~ .img-bg {
+    border: 1px solid grey;
+}
+
+.img-bg {
+    /*border: 1px solid grey; !* DELETE*!*/
+    border-radius: 10px;
+    transition: 0.2s all;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: auto;
+
+}
+
+.item-card h3 {
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    /*border: 1px solid red;*/
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-card p {
+    font-size: 14px;
+    color: #434343;
+}
+
+.item-card p span {
+    float: right;
+}
+
+.price-card {
+    width: 100%;
+    height: auto;
+    /*padding: 5px;*/
+    /*border: 1px solid black;*/
+    justify-content: space-between;
+}
+
+@media (max-width: 1300px) {
+    .item-container {
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+
+@media (max-width: 1024px) {
+    .item-container {
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    .item-card {
+        width: 280px;
+    }
+}
+
+@media (max-width: 950px) {
+    .item-container {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .item-card {
+        width: 305px;
+    }
+}
+
+@media (max-width: 700px) {
+    .item-container {
+        grid-template-columns: 1fr;
+
+    }
+}
